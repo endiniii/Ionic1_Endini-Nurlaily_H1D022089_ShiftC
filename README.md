@@ -10,9 +10,10 @@
 1. Bagaimana cara untuk menambahkan Komponen di halaman Ionic? Jelaskan secara detail langkahnya.
 Berikut adalah langkah singkat untuk menambahkan komponen di halaman Ionic:
 
-a. Buka Proyek Ionic: Pastikan proyek sudah dibuat dan buka folder proyek di editor.
-b. Buka Halaman: Navigasi ke file HTML halaman yang ingin diedit, misalnya home.page.html.
-c. Tambahkan Komponen: Masukkan komponen yang diinginkan. Contoh:
+- Buka Proyek Ionic: Pastikan proyek sudah dibuat dan buka folder proyek di editor.
+- Buka Halaman: Navigasi ke file HTML halaman yang ingin diedit, misalnya home.page.html.
+- Tambahkan Komponen: Masukkan komponen yang diinginkan. Contoh:
+ ```html
 html
 Copy code
 <ion-card>
@@ -21,6 +22,7 @@ Copy code
   </ion-card-header>
   <ion-card-content>Isi Kartu</ion-card-content>
 </ion-card>
-d. Simpan Perubahan: Simpan file setelah menambahkan komponen.
-e. Jalankan Proyek: Gunakan perintah ionic serve di terminal untuk melihat hasilnya di browser.
-f. (Opsional) Tambah Styling: Buka file SCSS terkait untuk menambahkan gaya jika perlu.
+```
+- Smpan Perubahan: Simpan file setelah menambahkan komponen.
+- Jalankan Proyek: Gunakan perintah ionic serve di terminal untuk melihat hasilnya di browser.
+- (Opsional) Tambah Styling: Buka file SCSS terkait untuk menambahkan gaya jika perlu.
